@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t lazzo/nginx-lua-test .'
+                sh 'docker build -t nginx-lua-test .'
             }
         }
     }
